@@ -16,41 +16,24 @@
     --second-color:  #1e3932;
 }
 
-
-/*navbar*/
 section{
-     padding: 50px 10%;
+    padding: 50px 10%;
 }
-* ::selection{
-    color: #fff ;
-    background: var(--main-color);
-}
+
 img{
-    width: 100% ;
-}
-header{
-    position: fixed;
-    width: 100%;
-    top: 0;
-    right: 0;
-    z-index: 1000;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background: #fff;
-    padding: 10px 10%;
-    transition: 0.2s ;
+   width: 100% ;
 }
 
 /*logo starbucks*/
 .logo {
-    display: flex;
-    align-items: center;
+   display: flex;
+   align-items: center;
 }
 .logo img{
-    width: 40px;
+   width: 40px;
 
 }
+
 /*home shop dll*/
 .navbar {
     display: flex;
@@ -224,41 +207,3 @@ flex: 1 1 17rem ;
     margin: 0.5rem 0 1rem;
     text-align: justify;
  }
-
-
-.contact {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.social a{
-   font-size: 27px;
-   margin: 0.5rem; 
-}
-.social a .bx{
-    padding: 5px ;
-    color: white;
-    background: #000000;
-    border-radius: 50%;
- 
-}
-
-.social a .bx:hover{
-    background: var(--main-color);
-}
-.links{
-    margin: 1rem 0 1rem;
-}
-.links a{
-    font-size: 1rem ;
-    font-weight: 500;
-    color:var(--second-color) ;
-    padding: 1rem;
-}
-.links  a:hover{
-    color: red;
-}
-.contact p{
-    text-align: center;
-}
-

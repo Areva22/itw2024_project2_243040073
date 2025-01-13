@@ -7,7 +7,6 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
     <title>STARBUCKS</title>
     <link rel="stylesheet" href="style.css">
     <!--Box Icons-->
@@ -16,19 +15,35 @@
   <body>
 
     <!--Navbar-->
-      <header>
-        <a href="#" class="logo"><img src="img/logo.png" alt=""></a>
-        <div class="bx bx-menu" id="menu-icon"></div>
-
-        <ul class="navbar">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#shop">Shop</a></li>
-          <li><a href="#delivery">Delivery</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#contact us">Contact Us</a></li>
-        </ul>
-      </header>
-
+    <nav class="navbar navbar-expand-lg navbar-light py-3">
+      <div class="container">
+          <a class="navbar-brand" href="#">
+              <img src="img/logo.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top rounded">
+          </a>
+        <button class="navbar-toggler bg-lights shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto d-flex gap-3 text-center pt-lg-0 pt-4">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#shop">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#delivery">Delivery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+  </nav>
       <!--Home-->
       <section class="Home" id="home ">
         <div class="home-text">
@@ -78,6 +93,7 @@
           </div>
         </div>
       </section>
+      
       <!--Delivery-->
       <section class="delivery" id="delivery">
         <div class="heading">
@@ -105,27 +121,30 @@
      </div>
      <div class="about-text">
     <h2>50 years of serving communities</h2>
-       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nostrum mollitia blanditiis et neque expedita veniam sequi corrupti voluptatum nemo.</p>
-       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nostrum mollitia blanditiis et neque expedita veniam sequi corrupti voluptatum nemo.</p>
+      <p>"Nikmati setiap tegukan harimu! Semoga kopi ini membawa semangat ekstra untukmu.Saat lelah melanda, kopi dan senyuman adalah kuncinya. Have a great day!"</p>
        <a href="#" class="btn">Order Now</a>
 
     </div>
     </section>
-    <!--contact-->
-    <section class="contact" id="contact">
-       <div class="social">
-        <a href="#"><i class='bx bxl-facebook'></i></a>
-        <a href="#"><i class='bx bxl-twitter'></i></a>
-        <a href="#"><i class='bx bxl-instagram'></i></a>
-      
-       </div>
-       <div class="links">
-        <a href="#">Privacy Policy</a>
-        <a href="#">Terms Of Use</a>
-        <a href="#">Our Company</a>
-       </div>
-       <p>&#169; Try Noer Arreva All Right Reserved.</p>
-    </section>
+
+
+
+    <!--contact section-->
+    <div class=" container justify-content-center align-items-center vh-80" >
+      <div class="text-center">
+          <h2><br>Kontak Kami <br></h2>
+          <p>Untuk informasi lebih lanjut, silahkan hubungi melalui:</p>
+          <p>Email: feedback@starbucs.co.id</p>
+          <p>Telepon: 1500078</p>
+      </div>
+  </div>
+
+
+         <!--Footer-->
+         <footer class="bg-dark text-white text-center py-3">
+         <p>&copy; 2025 STARBUCKS. Semiua Hak Dilindungi.</p>
+        </footer>
+        </section>
 
    
     <!--Link To Custom JS-->
